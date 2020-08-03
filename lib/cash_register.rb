@@ -30,4 +30,9 @@ class CashRegister
   def items 
     @all_items
   end 
+  
+  def void_last_transaction
+    @total = @total - @last_trans_amt
+    @last_trans_amt
+  end 
 end 
