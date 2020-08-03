@@ -19,7 +19,9 @@ class CashRegister
   
   def apply_discount
     @discount == 0 
-     "There is no discount today."
+     "There is no discount to apply."
+    else 
+      
     
   end 
 end 
