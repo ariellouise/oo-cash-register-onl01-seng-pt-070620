@@ -21,7 +21,8 @@ class CashRegister
     if @discount == 0 
      "There is no discount to apply."
     else 
-      discount = discount_to_f 
+      discounted = discount_to_f 
+      
       
     
   end 
